@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Накорми малыша! 💖</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🌸 Накорми малыша ко Дню матери! 🌸</h1>
+        <p class="instructions">Выбери, что дать малышу. У тебя 3 попытки!</p>
+
+        <img src="images/baby-happy.png" alt="Малыш" class="baby" id="baby">
+
+        <div class="foods" id="foods">
+            <div class="food-card" data-food="porridge">
+                <img src="images/porridge.png" alt="Каша" class="food-item">
+                <span>Каша</span>
+            </div>
+            <div class="food-card" data-food="cookie">
+                <img src="images/cookie.png" alt="Печенье" class="food-item">
+                <span>Печенье</span>
+            </div>
+            <div class="food-card" data-food="soup">
+                <img src="images/soup.png" alt="Суп" class="food-item">
+                <span>Суп</span>
+            </div>
+            <div class="food-card" data-food="carrot">
+                <img src="images/carrot.png" alt="Морковь" class="food-item">
+                <span>Морковь</span>
+            </div>
+            <div class="food-card" data-food="broccoli">
+                <img src="images/broccoli.png" alt="Брокколи" class="food-item">
+                <span>Брокколи</span>
+            </div>
+            <div class="food-card" data-food="chips">
+                <img src="images/chips.png" alt="Чипсы" class="food-item">
+                <span>Чипсы</span>
+            </div>
+        </div>
+
+        <div class="result" id="result"></div>
+        <button id="restart" style="display:none;">Играть снова</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
